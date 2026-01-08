@@ -1,0 +1,5 @@
+.DS_Store
+.ruby-version
+coverage/
+Gemfile.lock
+tmp/
