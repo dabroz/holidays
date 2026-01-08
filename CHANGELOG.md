@@ -1,5 +1,10 @@
 # Ruby Holidays Gem CHANGELOG
 
+## 9.0.0
+
+* Created a revised version of the gem (the original has not been updated for two years)
+* Added the Polish holiday of Christmas Eve (https://github.com/holidays/definitions/pull/307)
+
 ## 8.8.0
 
 * Update to [v5.7.4 definitions](https://github.com/holidays/definitions/releases/tag/v5.7.4). Please see the changelog for the definition details.

@@ -5,17 +5,17 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'holidays/version'
 
 Gem::Specification.new do |gem|
-  gem.name          = 'holidays'
+  gem.name          = 'revised_holidays'
   gem.version       = Holidays::VERSION
   gem.authors       = ['Alex Dunae', 'Phil Peble']
   gem.email         = ['holidaysgem@gmail.com']
-  gem.homepage      = 'https://github.com/holidays/holidays'
+  gem.homepage      = 'https://github.com/dabroz/holidays'
   gem.description   = %q(A collection of Ruby methods to deal with statutory and other holidays. You deserve a holiday!)
   gem.summary       = %q(A collection of Ruby methods to deal with statutory and other holidays.)
   gem.metadata = {
-    'changelog_uri' => "https://github.com/holidays/holidays/blob/master/CHANGELOG.md",
-    'source_code_uri' => 'https://github.com/holidays/holidays',
-    'bug_tracker_uri' => 'https://github.com/holidays/holidays/issues'
+    'changelog_uri' => "https://github.com/dabroz/holidays/blob/master/CHANGELOG.md",
+    'source_code_uri' => 'https://github.com/dabroz/holidays',
+    'bug_tracker_uri' => 'https://github.com/dabroz/holidays/issues'
   }
   gem.files         = `git ls-files`.split("\n") - ['.gitignore', '.travis.yml']
   gem.test_files    = gem.files.grep(/^test/)
