@@ -7,7 +7,7 @@ Extends Ruby's built-in Date and Time classes and supports custom holiday defini
 ## Installation
 
 ```
-gem install holidays
+gem install revised_holidays
 ```
 
 ## Tested versions
